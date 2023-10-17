@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Navbar = () => {
@@ -59,7 +60,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Coder Shubham</a>
+          <Link href={'/'} className="btn btn-ghost normal-case text-xl">Coder Shubham</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -68,33 +69,33 @@ const Navbar = () => {
                 <summary>Stats</summary>
                 <ul className="p-2">
                   <li>
-                    <a>Services</a>
+                    <Link href={'#services'}>Services</Link>
                   </li>
                   <li>
-                    <a>Skills</a>
+                    <Link href={'#skills'}>Skills</Link>
                   </li>
                 </ul>
               </details>
             </li>
 
             <li>
-              <a>Projects</a>
+              <Link href={'/projects'}>Projects</Link>
             </li>
             <li tabIndex={0}>
               <details>
                 <summary>About</summary>
                 <ul className="p-2">
                   <li>
-                    <a>Experience</a>
+                    <Link href={'#experience'}>Experience</Link>
                   </li>
                   <li>
-                    <a>About me</a>
+                    <Link href={'#about'}>About me</Link>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <a>Contact</a>
+              <Link href={'#contact'}>Contact</Link>
             </li>
           </ul>
         </div>
