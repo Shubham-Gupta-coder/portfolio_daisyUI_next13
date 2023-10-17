@@ -9,7 +9,7 @@ const Services = () => {
           </h1>
           <h3 className="text-xl mt-2 font-semibold">Here's what we offer</h3>
         </div>
-        <div className="flex flex-wrap mx-auto m-10 mt-2 items-center justify-center">
+        <div className="flex flex-wrap space-x-5 mx-auto m-10 mt-2 items-center justify-center">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
               <img
@@ -19,7 +19,26 @@ const Services = () => {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title mb-2">Next.Js 13 | Full Stack Website Development</h2>
+              <h2 className="card-title mb-2">
+                Next.Js 13 | Full Stack Website Development
+              </h2>
+              <div className="card-actions">
+                <button className="btn btn-primary">Get Service</button>
+              </div>
+            </div>
+          </div>
+          <div className="card w-96 bg-base-100 shadow-xl">
+            <figure className="px-10 pt-10">
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1024/1*QY5S4senfFh-mIViSi5A_Q.png"
+                alt="react native"
+                className="rounded-xl h-[200px] object-cover"
+              />
+            </figure>
+            <div className="card-body items-center text-center">
+              <h2 className="card-title mb-2">
+                React Natuve | Cross Platform App Development
+              </h2>
               <div className="card-actions">
                 <button className="btn btn-primary">Get Service</button>
               </div>

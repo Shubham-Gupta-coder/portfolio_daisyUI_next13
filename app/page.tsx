@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Services from './components/Services';
+import Skills from './components/Skills';
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
         </div>
       </div>
 
-      <Services/>
+      <Services />
+      
+      <Skills/>
     </>
   );
 }
