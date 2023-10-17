@@ -4,7 +4,7 @@ import Skills from './components/Skills';
 
 export default function Home() {
   return (
-    <>
+    <main>
       <div
         className="hero min-h-[50vh]"
         style={{
@@ -27,6 +27,6 @@ export default function Home() {
       <Services />
       
       <Skills/>
-    </>
+    </main>
   );
 }
