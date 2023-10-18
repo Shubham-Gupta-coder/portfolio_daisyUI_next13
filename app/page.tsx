@@ -1,7 +1,7 @@
-import Image from 'next/image'
 import Services from './components/Services';
 import Skills from './components/Skills';
 import About from './components/About';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -29,7 +29,10 @@ export default function Home() {
       
       <Skills />
       
-      <About/>
+      <About />
+      
+      <Contact />
+      
     </main>
   );
 }
