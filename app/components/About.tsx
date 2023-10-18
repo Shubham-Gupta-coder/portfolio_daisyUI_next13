@@ -8,7 +8,7 @@ const About = () => {
 
       <div className="w-[80vw] mx-auto">
         <h1 className="text-4xl text-warning mb-5 font-bold">
-          Hi I'm Coder Shubham
+          Hi I am Coder Shubham
         </h1>
         <div className="flex items-center flex-wrap">
           <kbd className="kbd m-1">Web Developer</kbd>
