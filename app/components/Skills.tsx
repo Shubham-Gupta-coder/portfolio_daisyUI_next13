@@ -1,14 +1,10 @@
 import React from "react";
+import Headline from "./Headline";
 
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="flex flex-col items-center justify-center p-20">
-        <h1 className="text-3xl font-bold text-primary border-b-2 border-primary">
-          Skills
-        </h1>
-        <h3 className="text-xl mt-2 font-semibold">Here's what we know</h3>
-      </div>
+      <Headline heading="Skills" paragraph="Here's what we know" />
       <div className="flex flex-wrap space-x-5 mx-auto items-center justify-center">
         <div className="carousel carousel-center p-4 space-x-4 bg-primary bg-opacity-10 border-8 border-primary rounded-box w-[80vw]">
           <div className="carousel-item w-1/3 h-[300px]">

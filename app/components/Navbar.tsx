@@ -81,18 +81,8 @@ const Navbar = () => {
             <li>
               <Link href={'/projects'}>Projects</Link>
             </li>
-            <li tabIndex={0}>
-              <details>
-                <summary>About</summary>
-                <ul className="p-2">
-                  <li>
-                    <Link href={'#experience'}>Experience</Link>
-                  </li>
-                  <li>
-                    <Link href={'#about'}>About me</Link>
-                  </li>
-                </ul>
-              </details>
+            <li>
+              <Link href={'#about'}>About</Link>
             </li>
             <li>
               <Link href={'#contact'}>Contact</Link>

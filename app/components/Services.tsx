@@ -1,14 +1,10 @@
 import React from 'react'
+import Headline from './Headline';
 
 const Services = () => {
     return (
       <section id='services'>
-        <div className="flex flex-col items-center justify-center p-20">
-          <h1 className="text-3xl font-bold text-primary border-b-2 border-primary">
-            Services
-          </h1>
-          <h3 className="text-xl mt-2 font-semibold">Here's what we offer</h3>
-        </div>
+        <Headline heading="Services" paragraph="Here's  we offer" />
         <div className="flex flex-wrap space-x-5 mx-auto items-center justify-center">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
