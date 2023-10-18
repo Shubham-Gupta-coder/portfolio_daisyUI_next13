@@ -28,35 +28,27 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <Link href={'/'}>Home</Link>
               </li>
               <li>
-                <a>Stats</a>
+                <Link href={'#'}>Stats</Link>
                 <ul className="p-2">
                   <li>
-                    <a>Services</a>
+                    <Link href={'#services'}>Services</Link>
                   </li>
                   <li>
-                    <a>Skills</a>
+                    <Link href={'#skills'}>Skills</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Projects</a>
+                <Link href={'#about'}>About</Link>
               </li>
               <li>
-                <a>About</a>
-                <ul className="p-2">
-                  <li>
-                    <a>About Us</a>
-                  </li>
-                  <li>
-                    <a>Experience</a>
-                  </li>
-                </ul>
+                <Link href={'/projects'}>Projects</Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link href={'#contact'}>Contact</Link>
               </li>
             </ul>
           </div>
@@ -90,7 +82,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">SignIn</a>
+          <Link href={'/'} className="btn">SignIn</Link>
         </div>
       </div>
     </header>

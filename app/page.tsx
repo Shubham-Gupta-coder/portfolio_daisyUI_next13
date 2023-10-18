@@ -16,8 +16,8 @@ export default function Home() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
-            <h1 className="mb-8 text-5xl font-bold">Coder Shubham here!</h1>
-            <p className="mb-8">
+            <h1 className="mb-8 text-3xl md:text-5xl font-bold">Coder Shubham here!</h1>
+            <p className="mb-8 max-sm:text-sm">
               We build next js projects for you. With love and all the skillset required to make a fully functional nextjs project using various supporting technologies. Check out my youtube channel for more.
             </p>
             <button className="btn btn-primary">Coder Shubham</button>

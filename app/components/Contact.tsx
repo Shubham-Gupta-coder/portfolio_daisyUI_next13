@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className='mt-10'>
       <div className="hero min-h-screen bg-neutral">
         <div className="hero-content flex-col items-center justify-evenly  lg:flex-row-reverse">
-          <div className="text-center lg:text-left w-1/2">
+          <div className="text-center lg:text-left w-2/3">
             <h1 className="text-5xl text-primary font-bold">Contact now!</h1>
             <p className="py-6 text-neutral-content">
               Provide us your email, name and message we will get to you back soon!

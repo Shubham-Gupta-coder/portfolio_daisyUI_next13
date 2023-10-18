@@ -11,7 +11,7 @@ const Headline = ({heading, paragraph}: headline) => {
       <h1 className="text-3xl font-bold text-primary border-b-2 border-primary">
         {heading}
       </h1>
-      <h3 className="text-xl mt-2 font-semibold">{paragraph}</h3>
+      <h3 className="text-xl mt-2 text-center font-semibold">{paragraph}</h3>
     </div>
   );
 }

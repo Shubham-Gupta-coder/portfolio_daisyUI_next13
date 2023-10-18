@@ -7,50 +7,41 @@ const About = () => {
       <Headline heading="About Me" paragraph="know me and start the journey" />
 
       <div className="w-[80vw] mx-auto">
-        <h1 className="text-4xl text-primary-content mb-5 font-bold">
+        <h1 className="text-4xl text-warning mb-5 font-bold">
           Hi I'm Coder Shubham
         </h1>
-        <div className="flex items-center space-x-2">
-          <kbd className="kbd">Web Developer</kbd>
-          <kbd className="kbd">App Developer</kbd>
-          <kbd className="kbd">Youtuber</kbd>
+        <div className="flex items-center flex-wrap">
+          <kbd className="kbd m-1">Web Developer</kbd>
+          <kbd className="kbd m-1">App Developer</kbd>
+          <kbd className="kbd m-1">Youtuber</kbd>
         </div>
 
         <h3 className="text-accent font-semibold mt-12 mb-5">
           My Journey on Youtube
         </h3>
-        <ul className="steps">
-          <li data-content="x" className="step step-error">
-            Channel 1
-          </li>
-          <li data-content="x" className="step step-error">
-            Channel 2
-          </li>
-          <li data-content="x" className="step step-error">
-            Channel 3
-          </li>
-          <li data-content="x" className="step step-error">
-            Channel 4
-          </li>
+        <ul className="steps space-x-2">
           <li data-content="✓" className="step step-success">
-            Coder Shubham
+            100
+          </li>
+          <li data-content="●" className="step step-warning">
+            1k
+          </li>
+          <li data-content="x" className="step step-error">
+            100k
+          </li>
+          <li data-content="x" className="step step-error">
+            1M
           </li>
         </ul>
         <h3 className="text-secondary font-semibold mt-12 mb-5">
           My Journey in Coding
         </h3>
-        <ul className="steps">
+        <ul className="steps space-x-2">
           <li data-content="✓" className="step step-success">
-            HTML CSS JS
+            Web Dev
           </li>
           <li data-content="✓" className="step step-success">
-            React Js
-          </li>
-          <li data-content="✓" className="step step-success">
-            Next Js
-          </li>
-          <li data-content="✓" className="step step-success">
-            (Git, Tailwind etc)
+            Additional
           </li>
           <li data-content="●" className="step step-warning">
             App Dev
